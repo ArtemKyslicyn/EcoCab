@@ -1,0 +1,10 @@
+PODS:
+  - ENSwiftSideMenu (0.1)
+
+DEPENDENCIES:
+  - ENSwiftSideMenu (~> 0.1)
+
+SPEC CHECKSUMS:
+  ENSwiftSideMenu: 4e17a97d1d92c1a9c7267993a167e27e0a10422d
+
+COCOAPODS: 0.39.0
