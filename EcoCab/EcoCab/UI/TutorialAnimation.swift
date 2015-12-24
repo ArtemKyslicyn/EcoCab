@@ -16,45 +16,8 @@ enum TurorPageSwipeDirection:CGFloat{
     case Right = 1
 }
 
-//Default values
-private let defaultCountOfVisibleCards = 3
-private let backgroundCardsTopMargin: CGFloat = 4.0
-private let backgroundCardsScalePercent: CGFloat = 0.95
-private let backgroundCardsLeftMargin: CGFloat = 8.0
-private let backgroundCardFrameAnimationDuration: NSTimeInterval = 0.2
-
-//Opacity values
-private let defaultAlphaValueOpaque: CGFloat = 1.0
-private let defaultAlphaValueTransparent: CGFloat = 0.0
-private let defaultAlphaValueSemiTransparent: CGFloat = 0.7
-
-//Animations constants
-private let revertCardAnimationName = "revertCardAlphaAnimation"
-private let revertCardAnimationDuration: NSTimeInterval = 1.0
-private let revertCardAnimationToValue: CGFloat = 1.0
-private let revertCardAnimationFromValue: CGFloat = 0.0
-
-private let kolodaAppearScaleAnimationName = "kolodaAppearScaleAnimation"
-private let kolodaAppearScaleAnimationFromValue = CGPoint(x: 0.1, y: 0.1)
-private let kolodaAppearScaleAnimationToValue = CGPoint(x: 1.0, y: 1.0)
-private let kolodaAppearScaleAnimationDuration: NSTimeInterval = 0.8
-private let kolodaAppearAlphaAnimationName = "kolodaAppearAlphaAnimation"
-private let kolodaAppearAlphaAnimationFromValue: CGFloat = 0.0
-private let kolodaAppearAlphaAnimationToValue: CGFloat = 1.0
-private let kolodaAppearAlphaAnimationDuration: NSTimeInterval = 0.8
 
 
-let AnimatorStartTransform:CATransform3D = {
-    let rotationDegrees: CGFloat = -15.0
-    let rotationRadians: CGFloat = rotationDegrees * (CGFloat(M_PI)/180.0)
-    let offset = CGPointMake(-20, -20)
-    var startTransform = CATransform3DIdentity
-    startTransform = CATransform3DRotate(CATransform3DIdentity,
-        rotationRadians, 0.0, 0.0, 1.0)
-    startTransform = CATransform3DTranslate(startTransform, offset.x, offset.y, 0.0)
-    
-    return startTransform
-    }()
 
    var animationTransitionOptions: UIViewAnimationOptions = .TransitionCrossDissolve
 
@@ -63,19 +26,8 @@ let AnimatorStartTransform:CATransform3D = {
     
         var direction:TurorPageSwipeDirection!
         
-        class func animate(cell:UITableViewCell) {
-        let view = cell.contentView
-        
-        view.layer.transform = AnimatorStartTransform
-        view.layer.opacity = 0.8
-        
-        UIView.animateWithDuration(0.4) {
-            view.layer.transform = AnimatorStartTransform
-            view.layer.opacity = 1
-        }
-        
-        
-    }
+       
+    
     
     func transitionDuration(transitionContext: UIViewControllerContextTransitioning?) -> NSTimeInterval{
         return 1
