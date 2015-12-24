@@ -84,8 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods/DrawerController.framework"
   install_framework "Pods/ENSwiftSideMenu.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods/DrawerController.framework"
   install_framework "Pods/ENSwiftSideMenu.framework"
 fi

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2067C436F620BB91807B5305 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC42F2F7A3C3B9AF4ED9629A /* Pods.framework */; };
+		6A6B8B931C298DE5006B473B /* TutorialAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6B8B921C298DE5006B473B /* TutorialAnimation.swift */; };
+		6A6B8B951C299503006B473B /* TutorialNavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6B8B941C299503006B473B /* TutorialNavigationControllerDelegate.swift */; };
 		6AD6AAF51C252082003D3D91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6AAF41C252082003D3D91 /* AppDelegate.swift */; };
 		6AD6AAFA1C252082003D3D91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD6AAF81C252082003D3D91 /* Main.storyboard */; };
 		6AD6AAFC1C252082003D3D91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD6AAFB1C252082003D3D91 /* Assets.xcassets */; };
@@ -15,20 +17,22 @@
 		6AD6AB071C259290003D3D91 /* CrabACabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6AB061C259290003D3D91 /* CrabACabViewController.swift */; };
 		6AD6AB0D1C259464003D3D91 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6AB0C1C259464003D3D91 /* LaunchViewController.swift */; };
 		6AD6AB101C259665003D3D91 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6AB0F1C259665003D3D91 /* MenuViewController.swift */; };
-		6AD6AB121C25B410003D3D91 /* EcoCabNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6AB111C25B410003D3D91 /* EcoCabNavigationViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		6AD6AB121C25B410003D3D91 /* EcoCabNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6AB111C25B410003D3D91 /* EcoCabNavigationViewController.swift */; };
 		6AD6AB141C26BA5E003D3D91 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD6AB131C26BA5E003D3D91 /* MapKit.framework */; };
 		6AD6AB161C26BA68003D3D91 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD6AB151C26BA68003D3D91 /* CoreLocation.framework */; };
-		6AD6AB181C26D59F003D3D91 /* Cab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6AB171C26D59F003D3D91 /* Cab.swift */; settings = {ASSET_TAGS = (); }; };
-		6AD6AB1E1C26F985003D3D91 /* CarTypeSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6AB1D1C26F985003D3D91 /* CarTypeSelectViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		6AD6AB201C26FDA0003D3D91 /* FirstPageTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6AB1F1C26FDA0003D3D91 /* FirstPageTutorialViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		6AD6AB221C26FDF2003D3D91 /* SecondPageTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6AB211C26FDF2003D3D91 /* SecondPageTutorialViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		6AD6AB241C26FE23003D3D91 /* ThirdPageTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6AB231C26FE23003D3D91 /* ThirdPageTutorialViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		6AD6AB271C270F16003D3D91 /* CabCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6AB261C270F16003D3D91 /* CabCollectionViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		6AD6AB181C26D59F003D3D91 /* Cab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6AB171C26D59F003D3D91 /* Cab.swift */; };
+		6AD6AB1E1C26F985003D3D91 /* CarTypeSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6AB1D1C26F985003D3D91 /* CarTypeSelectViewController.swift */; };
+		6AD6AB201C26FDA0003D3D91 /* FirstPageTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6AB1F1C26FDA0003D3D91 /* FirstPageTutorialViewController.swift */; };
+		6AD6AB221C26FDF2003D3D91 /* SecondPageTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6AB211C26FDF2003D3D91 /* SecondPageTutorialViewController.swift */; };
+		6AD6AB241C26FE23003D3D91 /* ThirdPageTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6AB231C26FE23003D3D91 /* ThirdPageTutorialViewController.swift */; };
+		6AD6AB271C270F16003D3D91 /* CabCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6AB261C270F16003D3D91 /* CabCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		20BECF313377A3953D5F6905 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		3BBA934D802535E73629DE87 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6A6B8B921C298DE5006B473B /* TutorialAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TutorialAnimation.swift; path = UI/TutorialAnimation.swift; sourceTree = "<group>"; };
+		6A6B8B941C299503006B473B /* TutorialNavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TutorialNavigationControllerDelegate.swift; path = UI/TutorialNavigationControllerDelegate.swift; sourceTree = "<group>"; };
 		6AD6AAF11C252082003D3D91 /* EcoCab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoCab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD6AAF41C252082003D3D91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AD6AAF91C252082003D3D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -141,6 +145,8 @@
 				6AD6AB1F1C26FDA0003D3D91 /* FirstPageTutorialViewController.swift */,
 				6AD6AB211C26FDF2003D3D91 /* SecondPageTutorialViewController.swift */,
 				6AD6AB231C26FE23003D3D91 /* ThirdPageTutorialViewController.swift */,
+				6A6B8B921C298DE5006B473B /* TutorialAnimation.swift */,
+				6A6B8B941C299503006B473B /* TutorialNavigationControllerDelegate.swift */,
 			);
 			name = Tutorial;
 			sourceTree = "<group>";
@@ -302,7 +308,9 @@
 				6AD6AB121C25B410003D3D91 /* EcoCabNavigationViewController.swift in Sources */,
 				6AD6AB071C259290003D3D91 /* CrabACabViewController.swift in Sources */,
 				6AD6AAF51C252082003D3D91 /* AppDelegate.swift in Sources */,
+				6A6B8B931C298DE5006B473B /* TutorialAnimation.swift in Sources */,
 				6AD6AB221C26FDF2003D3D91 /* SecondPageTutorialViewController.swift in Sources */,
+				6A6B8B951C299503006B473B /* TutorialNavigationControllerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

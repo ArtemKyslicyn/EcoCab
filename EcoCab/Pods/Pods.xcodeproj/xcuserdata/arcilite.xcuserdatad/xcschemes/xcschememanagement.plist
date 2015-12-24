@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>DrawerController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>ENSwiftSideMenu.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,7 +27,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>724F51CCF779796C86727595DB75812E</key>
+		<key>87F891F45708FE24A0CC1BD7078E8EAE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D083682CF36071495A66680CF5CE2BA5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -8,8 +8,10 @@
 
 import UIKit
 
-class SecondPageTutorialViewController: UIViewController {
+class SecondPageTutorialViewController: UIViewController,TutorialPages {
 
+    @IBOutlet weak var backgroundView: UIImageView!
+    @IBOutlet weak var pageView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -38,7 +40,13 @@ class SecondPageTutorialViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    func tutorialPageView () -> UIView{
+        return pageView
+    }
+    
+    func tutorialBackgroundView () -> UIImageView{
+        return backgroundView
+    }
     /*
     // MARK: - Navigation
 

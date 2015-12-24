@@ -7,18 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04A8629FB5BE1A860AEA48C5ACEE5035 /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454F5257F5D3314C23CD9A9C88BAF3B /* ENSideMenu.swift */; };
-		20F8048465594E5F3107BF26404EF9A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		2690567884B04BD9A358033C7FF09429 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		403DB6E967693727F0056E555C804A6F /* ENSwiftSideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD612D6F2E49472EA7C36F117B2D53B /* ENSwiftSideMenu-dummy.m */; };
-		5A742CB79D25FF6F20F2D3CBCD4A6DCC /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D00CE40FF4F39E1E85EC2047EDA7111B /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D078902E3773FCC597AB9654DDA73E1C /* ENSideMenuNavigationController.swift */; };
-		D16AB3AA191240C3F15C91870378A8D6 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
-		FDC6924DD3176F2A1D6BD505AC9DCA7D /* ENSwiftSideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A7AA23FFFBBD44E2EF2EA03C420440 /* ENSwiftSideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04A8629FB5BE1A860AEA48C5ACEE5035 /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8A4EA38EE389AACA2B7A5D7E767BC /* ENSideMenu.swift */; };
+		0C95545F062605A82573D5645E33EAAE /* DrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDE08903DC2907AA5C83DD7F95C815F /* DrawerController.swift */; };
+		2075BE989A20851497A9BB2821FEDB09 /* DrawerBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86481E9BCD763954B244EF43CD531AF /* DrawerBarButtonItem.swift */; };
+		20F8048465594E5F3107BF26404EF9A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		27FB55C7BFB97B8B5BC2A7C1E2DF2704 /* DrawerVisualState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A0DAE411F5112A4DB12659BA061EA0 /* DrawerVisualState.swift */; };
+		28DED5A6804D26D142F50220517C6311 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
+		329EC90445CA47C60A52AF4A94D3D194 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */; };
+		403DB6E967693727F0056E555C804A6F /* ENSwiftSideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3797B36ABD0304BBC80E1065B1B4CE29 /* ENSwiftSideMenu-dummy.m */; };
+		4A39CE010519CADDA2910D77AFE38989 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DBF2789F0007DDC069B63DA9A2C6213 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		6CF92D21FDC1951641284136BDFF88AA /* DrawerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB51218F2856E447EA4F1B3325284A35 /* DrawerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84DB17F8CAE6499014CC632D0A43C0AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		9F60D52F733C26F37832E3A20F162943 /* AnimatedMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F09C759A45B32BB89F1478915E8DF4 /* AnimatedMenuButton.swift */; };
+		A3D8574FEFC96B6E5CCE5EAFD1086DA1 /* DrawerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1040D5662CF9B172B3EBB6714D227C80 /* DrawerController-dummy.m */; };
+		D00CE40FF4F39E1E85EC2047EDA7111B /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9776A1951D180D60CA1106F00EB91A6 /* ENSideMenuNavigationController.swift */; };
+		FDC6924DD3176F2A1D6BD505AC9DCA7D /* ENSwiftSideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A732D4919C29A6273F954BC5CCAE1DB6 /* ENSwiftSideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E2D86C03218AAA3E9FD1FEC899ECA636 /* PBXContainerItemProxy */ = {
+		370AC43F60B74927829E28A602591325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D083682CF36071495A66680CF5CE2BA5;
+			remoteInfo = DrawerController;
+		};
+		E567678CD815C2B49907F6966F348EB0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -28,36 +43,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0454F5257F5D3314C23CD9A9C88BAF3B /* ENSideMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ENSideMenu.swift; path = Library/ENSideMenu.swift; sourceTree = "<group>"; };
+		1040D5662CF9B172B3EBB6714D227C80 /* DrawerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DrawerController-dummy.m"; sourceTree = "<group>"; };
+		1704E957831C4F6D4CDBE689EBC652BD /* ENSwiftSideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ENSwiftSideMenu.modulemap; sourceTree = "<group>"; };
+		258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
-		2CD612D6F2E49472EA7C36F117B2D53B /* ENSwiftSideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ENSwiftSideMenu-dummy.m"; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5793DDCC099EBE83CEB41BD692D9F366 /* ENSwiftSideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ENSwiftSideMenu.xcconfig; sourceTree = "<group>"; };
-		58A7AA23FFFBBD44E2EF2EA03C420440 /* ENSwiftSideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ENSwiftSideMenu-umbrella.h"; sourceTree = "<group>"; };
+		2C2FE0E6677AA517186DB62C69DCA3C8 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CBF1F942DAF3537306E6F4FFEE424D4 /* ENSwiftSideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ENSwiftSideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3797B36ABD0304BBC80E1065B1B4CE29 /* ENSwiftSideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ENSwiftSideMenu-dummy.m"; sourceTree = "<group>"; };
+		3BC53688B7863F538C46AB17B2A4FDDA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56A0DAE411F5112A4DB12659BA061EA0 /* DrawerVisualState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawerVisualState.swift; path = DrawerController/DrawerVisualState.swift; sourceTree = "<group>"; };
+		58A61902F06AB578B8286A26276E4E66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		7FC463D2185D4300DBDFD3973A74A103 /* DrawerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DrawerController.xcconfig; sourceTree = "<group>"; };
 		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
 		894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		92C14FA898269A36824F881F9ECE0A4B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		AE9B0CB0B202711E9D647E0FE48E9AFE /* ENSwiftSideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ENSwiftSideMenu.modulemap; sourceTree = "<group>"; };
+		A555E6B235F3F6FD55D3D02696234DF6 /* ENSwiftSideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ENSwiftSideMenu-prefix.pch"; sourceTree = "<group>"; };
+		A732D4919C29A6273F954BC5CCAE1DB6 /* ENSwiftSideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ENSwiftSideMenu-umbrella.h"; sourceTree = "<group>"; };
+		A8F09C759A45B32BB89F1478915E8DF4 /* AnimatedMenuButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedMenuButton.swift; path = DrawerController/AnimatedMenuButton.swift; sourceTree = "<group>"; };
+		A9776A1951D180D60CA1106F00EB91A6 /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ENSideMenuNavigationController.swift; path = Library/ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
+		AF998706C8E85CA158984441773510A3 /* DrawerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DrawerController.modulemap; sourceTree = "<group>"; };
+		B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BF6EFC64404CE65539322B87037E464E /* ENSwiftSideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ENSwiftSideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C87D520540702623B11C319AA62A18 /* ENSwiftSideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ENSwiftSideMenu.xcconfig; sourceTree = "<group>"; };
+		CB51218F2856E447EA4F1B3325284A35 /* DrawerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DrawerController-umbrella.h"; sourceTree = "<group>"; };
 		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		CDDE08903DC2907AA5C83DD7F95C815F /* DrawerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawerController.swift; path = DrawerController/DrawerController.swift; sourceTree = "<group>"; };
 		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D078902E3773FCC597AB9654DDA73E1C /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ENSideMenuNavigationController.swift; path = Library/ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
 		DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		DED8DA5F863E8017C533E7E3A39406A1 /* ENSwiftSideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ENSwiftSideMenu-prefix.pch"; sourceTree = "<group>"; };
 		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
 		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F748ACFA453961C567029942B87DFDF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E86481E9BCD763954B244EF43CD531AF /* DrawerBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawerBarButtonItem.swift; path = DrawerController/DrawerBarButtonItem.swift; sourceTree = "<group>"; };
+		F2742E0E510618CEE04541D73AF7C68C /* DrawerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DrawerController-prefix.pch"; sourceTree = "<group>"; };
+		F34FFDBFD4DCE8F7A59360B14A868D5F /* DrawerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DrawerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE8A4EA38EE389AACA2B7A5D7E767BC /* ENSideMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ENSideMenu.swift; path = Library/ENSideMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		44B17159CFEA9B64B64831C3F00EC280 /* Frameworks */ = {
+		078474A56DBE0D633709348F48C8C489 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2690567884B04BD9A358033C7FF09429 /* Foundation.framework in Frameworks */,
+				5DBF2789F0007DDC069B63DA9A2C6213 /* Foundation.framework in Frameworks */,
+				329EC90445CA47C60A52AF4A94D3D194 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,9 +97,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FE31331643DF4B98F55E568C24F991C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DB17F8CAE6499014CC632D0A43C0AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33D589486346E77317FF6690070F0838 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF998706C8E85CA158984441773510A3 /* DrawerController.modulemap */,
+				7FC463D2185D4300DBDFD3973A74A103 /* DrawerController.xcconfig */,
+				1040D5662CF9B172B3EBB6714D227C80 /* DrawerController-dummy.m */,
+				F2742E0E510618CEE04541D73AF7C68C /* DrawerController-prefix.pch */,
+				CB51218F2856E447EA4F1B3325284A35 /* DrawerController-umbrella.h */,
+				3BC53688B7863F538C46AB17B2A4FDDA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DrawerController";
+			sourceTree = "<group>";
+		};
+		3926C638AD0708942C88C2BC89261735 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */,
+				B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3926C638AD0708942C88C2BC89261735 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		631C25F22B405B3A1EC9520C33B398D5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CDDE08903DC2907AA5C83DD7F95C815F /* DrawerController.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		71677374B819CF52199C233C65AA398A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF274BD073122EB0685A0560395781F6 /* DrawerController */,
+				ACCBEC8B39652FC380337CECD1116E76 /* ENSwiftSideMenu */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,27 +178,43 @@
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				927BF6D291AAC5DC9A099FCA9218DF18 /* Pods */,
-				F460B53D17CEB33D863353EC546AE8ED /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				71677374B819CF52199C233C65AA398A /* Pods */,
+				DE322CB5459E377257A09E25E8F1395C /* Products */,
 				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		927BF6D291AAC5DC9A099FCA9218DF18 /* Pods */ = {
+		8926A8C6476AB1CC8224A5E1D9F99EE7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AA615BBCCD13862DE73D3126B9983ECC /* ENSwiftSideMenu */,
+				1704E957831C4F6D4CDBE689EBC652BD /* ENSwiftSideMenu.modulemap */,
+				C2C87D520540702623B11C319AA62A18 /* ENSwiftSideMenu.xcconfig */,
+				3797B36ABD0304BBC80E1065B1B4CE29 /* ENSwiftSideMenu-dummy.m */,
+				A555E6B235F3F6FD55D3D02696234DF6 /* ENSwiftSideMenu-prefix.pch */,
+				A732D4919C29A6273F954BC5CCAE1DB6 /* ENSwiftSideMenu-umbrella.h */,
+				58A61902F06AB578B8286A26276E4E66 /* Info.plist */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/ENSwiftSideMenu";
 			sourceTree = "<group>";
 		};
-		AA615BBCCD13862DE73D3126B9983ECC /* ENSwiftSideMenu */ = {
+		8E1F639B99E7FADA151ABDA29C587647 /* DrawerVisualStates */ = {
 			isa = PBXGroup;
 			children = (
-				0454F5257F5D3314C23CD9A9C88BAF3B /* ENSideMenu.swift */,
-				D078902E3773FCC597AB9654DDA73E1C /* ENSideMenuNavigationController.swift */,
-				C3AF1232E3F44296D5893A81B0DC83F8 /* Support Files */,
+				A8F09C759A45B32BB89F1478915E8DF4 /* AnimatedMenuButton.swift */,
+				E86481E9BCD763954B244EF43CD531AF /* DrawerBarButtonItem.swift */,
+				56A0DAE411F5112A4DB12659BA061EA0 /* DrawerVisualState.swift */,
+			);
+			name = DrawerVisualStates;
+			sourceTree = "<group>";
+		};
+		ACCBEC8B39652FC380337CECD1116E76 /* ENSwiftSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FBE8A4EA38EE389AACA2B7A5D7E767BC /* ENSideMenu.swift */,
+				A9776A1951D180D60CA1106F00EB91A6 /* ENSideMenuNavigationController.swift */,
+				8926A8C6476AB1CC8224A5E1D9F99EE7 /* Support Files */,
 			);
 			path = ENSwiftSideMenu;
 			sourceTree = "<group>";
@@ -127,61 +227,50 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		DE322CB5459E377257A09E25E8F1395C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		C3AF1232E3F44296D5893A81B0DC83F8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AE9B0CB0B202711E9D647E0FE48E9AFE /* ENSwiftSideMenu.modulemap */,
-				5793DDCC099EBE83CEB41BD692D9F366 /* ENSwiftSideMenu.xcconfig */,
-				2CD612D6F2E49472EA7C36F117B2D53B /* ENSwiftSideMenu-dummy.m */,
-				DED8DA5F863E8017C533E7E3A39406A1 /* ENSwiftSideMenu-prefix.pch */,
-				58A7AA23FFFBBD44E2EF2EA03C420440 /* ENSwiftSideMenu-umbrella.h */,
-				F748ACFA453961C567029942B87DFDF0 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ENSwiftSideMenu";
-			sourceTree = "<group>";
-		};
-		F460B53D17CEB33D863353EC546AE8ED /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BF6EFC64404CE65539322B87037E464E /* ENSwiftSideMenu.framework */,
-				92C14FA898269A36824F881F9ECE0A4B /* Pods.framework */,
+				F34FFDBFD4DCE8F7A59360B14A868D5F /* DrawerController.framework */,
+				2CBF1F942DAF3537306E6F4FFEE424D4 /* ENSwiftSideMenu.framework */,
+				2C2FE0E6677AA517186DB62C69DCA3C8 /* Pods.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DF274BD073122EB0685A0560395781F6 /* DrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				631C25F22B405B3A1EC9520C33B398D5 /* Core */,
+				8E1F639B99E7FADA151ABDA29C587647 /* DrawerVisualStates */,
+				33D589486346E77317FF6690070F0838 /* Support Files */,
+			);
+			path = DrawerController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		52125ECB9C1519F07CF18EA8A736C701 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A742CB79D25FF6F20F2D3CBCD4A6DCC /* Pods-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		894911C5DD87124269FAE189B37AED7F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FDC6924DD3176F2A1D6BD505AC9DCA7D /* ENSwiftSideMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF494488B308AB5C4C872673F635C89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A39CE010519CADDA2910D77AFE38989 /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A191732B2E8F7546BA7D38A5CC54981C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF92D21FDC1951641284136BDFF88AA /* DrawerController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,25 +291,43 @@
 			);
 			name = ENSwiftSideMenu;
 			productName = ENSwiftSideMenu;
-			productReference = BF6EFC64404CE65539322B87037E464E /* ENSwiftSideMenu.framework */;
+			productReference = 2CBF1F942DAF3537306E6F4FFEE424D4 /* ENSwiftSideMenu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		724F51CCF779796C86727595DB75812E /* Pods */ = {
+		87F891F45708FE24A0CC1BD7078E8EAE /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E6D00697DA03FEEC2FB394FC6F0E292 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = 19674D044F3CA58D80CAF31A16D663EB /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				524FAFE18DDDBAE32E7F38F65FB449C4 /* Sources */,
-				44B17159CFEA9B64B64831C3F00EC280 /* Frameworks */,
-				52125ECB9C1519F07CF18EA8A736C701 /* Headers */,
+				3B7CCBBB65647802ACD18ACAF0FECFC2 /* Sources */,
+				FE31331643DF4B98F55E568C24F991C4 /* Frameworks */,
+				8EF494488B308AB5C4C872673F635C89 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FE9173B9ACA54B3D5028103AC7CB9AD2 /* PBXTargetDependency */,
+				E41B218A5EB120A8F2C878A96F923584 /* PBXTargetDependency */,
+				4C9B3AC33C7771166A0264146BF6B291 /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
-			productReference = 92C14FA898269A36824F881F9ECE0A4B /* Pods.framework */;
+			productReference = 2C2FE0E6677AA517186DB62C69DCA3C8 /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D083682CF36071495A66680CF5CE2BA5 /* DrawerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FD41691DFE829395760CA88949DA92 /* Build configuration list for PBXNativeTarget "DrawerController" */;
+			buildPhases = (
+				0BBA96447ECEA0FC3514E119EBF50C99 /* Sources */,
+				078474A56DBE0D633709348F48C8C489 /* Frameworks */,
+				A191732B2E8F7546BA7D38A5CC54981C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawerController;
+			productName = DrawerController;
+			productReference = F34FFDBFD4DCE8F7A59360B14A868D5F /* DrawerController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -240,22 +347,35 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = F460B53D17CEB33D863353EC546AE8ED /* Products */;
+			productRefGroup = DE322CB5459E377257A09E25E8F1395C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				D083682CF36071495A66680CF5CE2BA5 /* DrawerController */,
 				5E40B80F0FA7BDA9FBB0AB7DDCD07249 /* ENSwiftSideMenu */,
-				724F51CCF779796C86727595DB75812E /* Pods */,
+				87F891F45708FE24A0CC1BD7078E8EAE /* Pods */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		524FAFE18DDDBAE32E7F38F65FB449C4 /* Sources */ = {
+		0BBA96447ECEA0FC3514E119EBF50C99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D16AB3AA191240C3F15C91870378A8D6 /* Pods-dummy.m in Sources */,
+				9F60D52F733C26F37832E3A20F162943 /* AnimatedMenuButton.swift in Sources */,
+				2075BE989A20851497A9BB2821FEDB09 /* DrawerBarButtonItem.swift in Sources */,
+				A3D8574FEFC96B6E5CCE5EAFD1086DA1 /* DrawerController-dummy.m in Sources */,
+				0C95545F062605A82573D5645E33EAAE /* DrawerController.swift in Sources */,
+				27FB55C7BFB97B8B5BC2A7C1E2DF2704 /* DrawerVisualState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7CCBBB65647802ACD18ACAF0FECFC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28DED5A6804D26D142F50220517C6311 /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,18 +392,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FE9173B9ACA54B3D5028103AC7CB9AD2 /* PBXTargetDependency */ = {
+		4C9B3AC33C7771166A0264146BF6B291 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ENSwiftSideMenu;
 			target = 5E40B80F0FA7BDA9FBB0AB7DDCD07249 /* ENSwiftSideMenu */;
-			targetProxy = E2D86C03218AAA3E9FD1FEC899ECA636 /* PBXContainerItemProxy */;
+			targetProxy = E567678CD815C2B49907F6966F348EB0 /* PBXContainerItemProxy */;
+		};
+		E41B218A5EB120A8F2C878A96F923584 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DrawerController;
+			target = D083682CF36071495A66680CF5CE2BA5 /* DrawerController */;
+			targetProxy = 370AC43F60B74927829E28A602591325 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0505BA3ABC444410BC64F21C2338F694 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5793DDCC099EBE83CEB41BD692D9F366 /* ENSwiftSideMenu.xcconfig */;
+			baseConfigurationReference = C2C87D520540702623B11C319AA62A18 /* ENSwiftSideMenu.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -308,40 +434,9 @@
 			};
 			name = Release;
 		};
-		093A6E405BBDFF14DBAABB1CF22DC929 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		13D1D5817B2A04B9F980FAD82875E5E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5793DDCC099EBE83CEB41BD692D9F366 /* ENSwiftSideMenu.xcconfig */;
+			baseConfigurationReference = C2C87D520540702623B11C319AA62A18 /* ENSwiftSideMenu.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -367,7 +462,35 @@
 			};
 			name = Debug;
 		};
-		867B46C46D848C0401C5C9BFE3284EEE /* Release */ = {
+		37A6DD7A4F64129C12135F1812F31D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FC463D2185D4300DBDFD3973A74A103 /* DrawerController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DrawerController/DrawerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DrawerController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DrawerController/DrawerController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DrawerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		865A5D2E5E6199C3757B5842DF8DE1C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */;
 			buildSettings = {
@@ -436,6 +559,64 @@
 			};
 			name = Debug;
 		};
+		CDD2346F41FD5983A360702FBDB0BE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E268D2E47FDF4E799E639713039AF3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FC463D2185D4300DBDFD3973A74A103 /* DrawerController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DrawerController/DrawerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DrawerController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DrawerController/DrawerController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DrawerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -473,20 +654,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		19674D044F3CA58D80CAF31A16D663EB /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD2346F41FD5983A360702FBDB0BE12 /* Debug */,
+				865A5D2E5E6199C3757B5842DF8DE1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FD41691DFE829395760CA88949DA92 /* Build configuration list for PBXNativeTarget "DrawerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A6DD7A4F64129C12135F1812F31D99 /* Debug */,
+				E268D2E47FDF4E799E639713039AF3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
 				FB45FFD90572718D82AB9092B750F0CA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8E6D00697DA03FEEC2FB394FC6F0E292 /* Build configuration list for PBXNativeTarget "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				093A6E405BBDFF14DBAABB1CF22DC929 /* Debug */,
-				867B46C46D848C0401C5C9BFE3284EEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

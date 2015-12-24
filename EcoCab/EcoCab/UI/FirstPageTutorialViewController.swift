@@ -8,9 +8,18 @@
 
 import UIKit
 
-class FirstPageTutorialViewController: UIViewController {
-    @IBOutlet var rightGestureRecognizer: UISwipeGestureRecognizer!
+protocol TutorialPages{
+    func tutorialPageView () -> UIView
+    func tutorialBackgroundView () -> UIImageView
+}
 
+
+class FirstPageTutorialViewController: UIViewController,TutorialPages {
+    @IBOutlet var rightGestureRecognizer: UISwipeGestureRecognizer!
+    @IBOutlet weak var backgroundView: UIImageView!
+    @IBOutlet weak var pageView: UIView!
+    
+     var navControlerDelegateObject  = TutorialNavigationControllerDelegate()
     @IBAction func swipeRightAction(sender: AnyObject) {
           self.performSegueWithIdentifier("SecondScreen", sender: self)
     }
@@ -21,8 +30,21 @@ class FirstPageTutorialViewController: UIViewController {
         let swipeGestureRecognizer: UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: "swipeRightAction:")
         swipeGestureRecognizer.direction = UISwipeGestureRecognizerDirection.Left
         self.view.addGestureRecognizer(swipeGestureRecognizer)
-
+        
+        self.navControlerDelegateObject.navigationController = self.navigationController
+        self.navigationController!.delegate = navControlerDelegateObject
+      //  self.navigationController?.modalTransitionStyle = .Custom
+        print(self.navigationController)
+        
         // Do any additional setup after loading the view.
+    }
+    
+    func tutorialPageView () -> UIView{
+        return pageView
+    }
+    
+    func tutorialBackgroundView () -> UIImageView{
+        return backgroundView
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,6 +53,7 @@ class FirstPageTutorialViewController: UIViewController {
     }
     
 
+    
     /*
     // MARK: - Navigation
 

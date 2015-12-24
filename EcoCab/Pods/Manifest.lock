@@ -1,10 +1,18 @@
 PODS:
+  - DrawerController (1.1.0):
+    - DrawerController/Core (= 1.1.0)
+    - DrawerController/DrawerVisualStates (= 1.1.0)
+  - DrawerController/Core (1.1.0)
+  - DrawerController/DrawerVisualStates (1.1.0):
+    - DrawerController/Core
   - ENSwiftSideMenu (0.1)
 
 DEPENDENCIES:
+  - DrawerController (~> 1.0)
   - ENSwiftSideMenu (~> 0.1)
 
 SPEC CHECKSUMS:
+  DrawerController: 8fd56e6238399a08c4af054fbea0ef8669cd81f3
   ENSwiftSideMenu: 4e17a97d1d92c1a9c7267993a167e27e0a10422d
 
 COCOAPODS: 0.39.0
