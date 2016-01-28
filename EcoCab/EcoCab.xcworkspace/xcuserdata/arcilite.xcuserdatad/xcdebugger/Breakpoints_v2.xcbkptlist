@@ -215,11 +215,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EcoCab/UI/TutorialAnimation.swift"
-            timestampString = "472659389.435846"
+            timestampString = "472679550.955621"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "116"
-            endingLineNumber = "116"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
             landmarkName = "animateTransition(_:)"
             landmarkType = "5">
          </BreakpointContent>
